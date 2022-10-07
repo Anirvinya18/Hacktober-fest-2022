@@ -1,0 +1,4 @@
+Why Learn Golang?
+Go is also a great language for writing concurrent programs: programs with many independently running parts. An obvious example is a webserver: Every request runs separately, but requests often need to share resources such as sessions, caches, or notification queues. This means skilled Go programmers need to deal with concurrent access to those resources.
+
+While Golang has an excellent set of low-level features for handling concurrency, using them directly can become complicated. In many cases, a handful of reusable abstractions over those low-level mechanisms makes life much easier.
